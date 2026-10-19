@@ -57,7 +57,7 @@ Trello 看板：{{TRELLO_BOARD_URL}}
 
 只有需求完成且通過合理驗證時，新增以下 Comment：
 
-【Codex 執行結果】
+【LLM 執行結果】
 
 狀態：完成
 
@@ -86,7 +86,7 @@ Trello 看板：{{TRELLO_BOARD_URL}}
 找不到路徑、描述不足、缺帳號／權限／dependency、驗證失敗、重大歧義、需要人工決策、高風險操作或其他無法可靠完成的原因，都視為受阻。
 保留卡片在 LLM 進行中，不移到 LLM 完成。新增以下 Comment：
 
-【Codex 執行受阻】
+【LLM 執行受阻】
 
 狀態：需要人工處理
 
