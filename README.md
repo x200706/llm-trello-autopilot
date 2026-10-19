@@ -5,7 +5,6 @@
 `llm-trello-autopilot` 是一套可複製的 Coding Agent 工作流程。你負責描述需求、排優先順序與審查結果，Agent 按排程檢查待辦。沒有工作就下班，遇到問題就留下可追查的回報。
 
 這個儲存庫提供排程提示詞、Trello 卡片範本與操作說明。實際執行由 LLM 桌面環境與你連接的 Trello 插件負責；clone 後仍需設定看板、排程與本機專案權限。
-
 ## 工作流程
 
 ```mermaid
@@ -107,3 +106,7 @@ flowchart TD
 - [templates/result-comments.md](templates/result-comments.md)：完成與受阻留言格式。
 
 歡迎透過 Issues 分享使用經驗或改善建議。附上可重現的流程，並移除私人看板內容、帳號資訊與憑證。
+
+## 進階使用技巧
+- Trello 看板可以透過 tag 等方式讓不同 LLM Agent 領取任務進行上班，需修改提示詞
+- 有的 LLM Agent 能力較不穩定，或因為文本太長觸發上下文壓縮，建議一次不要太多張卡片，避免他無法完成其中一個任務或應付了事
